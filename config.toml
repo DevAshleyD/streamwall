@@ -19,7 +19,7 @@
 
 [control]
 # Address to serve control server from
-address = "http://localhost:80"
+address = "https://devash-testbench2.herokuapp.com:80"
 
 # Override hostname and port
 #hostname = "localhost"
