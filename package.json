@@ -2,7 +2,7 @@
   "name": "streamwall",
   "version": "0.0.1",
   "description": "View streams in a grid",
-  "main": "src/index.js",
+  "main": "src/node/index.js",
   "scripts": {
     "build": "webpack",
     "start": "npm run build -- --display=errors-only && electron dist",
