@@ -5,7 +5,7 @@
   "main": "src/node/index.js",
   "scripts": {
     "build": "webpack",
-    "start": "npm run build -- --display=errors-only && electron dist",
+    "start": "npm run build -- --display=errors-only && electron dist --control.address=https://devash-testbench2.herokuapp.com --control.username=woke --control.password=woke",
     "start-local": "npm run build -- --display=errors-only && electron dist --control.address=http://localhost:4444 --control.username=woke --control.password=woke",
     "test": "jest"
   },
