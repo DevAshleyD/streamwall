@@ -8,4 +8,4 @@ source = "woke.net"
 [[streams]]
 kind  = "web"
 label = "zombocom"
-link  = "https://html5zombo.com"
+link  = "https://devash-testbench2.herokuapp.com"
